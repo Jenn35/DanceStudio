@@ -1,0 +1,357 @@
+html {
+  font-size: 16px;
+}
+
+.navbar-default {
+  background-color: #000000;
+  padding: 0px 3.4375rem 0px 3.685rem;
+
+}
+
+.navbar-nav {
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/*Home page*/
+
+.dancers {
+  background-image: url("./images/pyt_dance_studio_resources/dancers-photo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dancers h1 {
+  padding-top: 9.4375rem;
+  padding-bottom: 2.6875rem;
+  font-family: "Roboto";
+  font-size: 3.125rem;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 1;
+  width: 45%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.dancers p {
+  font-size: 1.5rem
+  line-height: 1.5;
+  font-family: "Roboto";
+  color: #ffffff;
+  width: 45%;
+  padding-top: 2.6875rem;
+  padding-bottom: 5rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.dancers .btn-primary {
+  padding: 1.25rem 3.125rem;
+  background-color: #f5a623;
+  border-radius: 2px;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 1.325rem;
+  margin: 0 auto 3.125rem 38%;
+}
+
+.jumbotron-fluid {
+  margin-bottom: 0;
+}
+
+.graffiti {
+  background-image: url("./images/pyt_dance_studio_resources/graffiti-photo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 31.25rem;
+  }
+
+.box, .box2, .box3 {
+  background-color: rgba(120, 73, 225, 0.9);
+  width: 25rem;
+  height: auto;
+  padding: 4.2rem 3rem;
+}
+
+
+
+.box .bold,
+.box2 .bold,
+.box3 .bold {
+  font-weight: bold;
+}
+
+.box h2,
+.box2 h2,
+.box3 h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 1.25rem;
+}
+
+.box p,
+.box2 p,
+.box3 p {
+line-height: 1.4;
+text-align: center;
+margin: 0 auto;
+margin-bottom: 1.25rem;
+}
+
+.fire {
+  background-image: url("./images/pyt_dance_studio_resources/fire-photo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 31.25rem;
+}
+
+.jump {
+  background-image: url("./images/pyt_dance_studio_resources/jump-photo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 31.25rem;
+
+}
+.bottom-nav {
+  height: 4rem;
+  background-color: rgba(120, 73, 225, 0.5);
+}
+
+@media only screen and (max-width: 760){
+
+}
+/*about page*/
+
+.top {
+  border-bottom: 10px solid #794ae2;
+  min-width: 100%;
+  margin-top: 3%;
+  }
+
+  #about {
+    font-size: 3.125rem;
+    font-weight: bold;
+    color: #794ae2;
+    margin-bottom: 1rem;
+  }
+
+  .push-down p {
+    font-size: 1.5rem;
+  }
+
+  .second, .third, .fourth, .fifth {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    }
+
+  .third, .fifth {
+      background-color: #ffffff;
+    }
+
+  .second, .fourth {
+    background-color: #f2f2f2;
+  }
+
+   .third-content, .fifth-content {
+    margin: 5rem 19%;
+  }
+
+  .second-content, .fourth-content {
+    margin: 5rem 0 5rem 0;
+  }
+
+  .contain-text {
+    flex: 1 1 100%;
+    margin: 0 5rem 0 5rem;
+  }
+
+  .second img, .fourth img {
+    margin-left: 35%;
+  }
+
+  .contain-image {
+    flex: 1 1 100%;
+  }
+
+  .contain-image img {
+   height: 9.375rem;
+  }
+
+  .contain-text h2 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: #794ae2;
+
+  }
+
+  .contain-text p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #666666;
+
+  }
+
+  @media only screen and (max-width: 600px) {
+    .second, .third, .fourth, .fifth {
+      flex-direction: column;
+    }
+
+    .contain-image img {
+      height: 5rem;
+
+    }
+    .contain-text h2 {
+      font-size: 1.7rem;
+
+    }
+    .contain-text p {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+  }
+
+  .party {
+    background-image: url("./images/pyt_dance_studio_resources/party-photo.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 15rem;
+  }
+
+  .text-change {
+    text-decoration: none;
+
+  }
+
+  .map {
+    background-image: url("./images/pyt_dance_studio_resources/map.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 31.25rem;
+  }
+
+  .bottom-nav {
+    display: flex;
+    justify-content:space-between;
+    color: white;
+    align-items: center;
+    height: 4rem;
+    background-color: rgba(120, 73, 225, 0.5);
+  }
+
+  .footer-info {
+    display: block;
+    margin: 1rem auto;
+    text-align: center;
+    color: white;
+  }
+
+  .push-down {
+    margin-top: 10%;
+  }
+
+  .box4 {
+    background-color: rgba(120, 73, 225, 0.9);
+    width: 25rem;
+    height: auto;
+    padding: 3rem 3rem;
+  }
+
+  .box4 h2, .box4 p {
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  .box4 h2 {
+    font-weight: bold;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .second img, .third img, .fourth img, .fifth img {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  /*classes page*/
+
+  .classTimes {
+    margin-top: 5.3125rem;
+    margin-bottom: 2.4rem;
+
+  }
+
+  .classTimes h2 {
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: rgba(174, 75, 227, 0.9);
+    margin-bottom: 1.125rem;
+  }
+
+  .classTimes h4 {
+    font-weight: bold;
+    font-size: 1.125rem;
+  }
+
+  /*faculty page*/
+
+  .faculty {
+    background-image: url("./images/pyt_dance_studio_resources/faculty-photo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 34rem;
+    border-bottom: #8a54ff;
+    margin-top: 3rem;
+  }
+
+  .faculty h1 {
+    color: #8a54ff;
+    text-align: center;
+    width: 25%;
+    position: relative;
+    left: 60%;
+
+  }
+
+  .faculty p {
+   color: #999999;
+   text-align: center;
+   width: 25%;
+   position: relative;
+   left: 60%;
+  }
+
+  .add-margin {
+    margin-top: 5.6rem;
+    margin-bottom: 6.5rem;
+  }
+
+  .faculty-info {
+    text-align: center;
+    margin-bottom: 6rem;
+  }
+
+  .faculty-info h2 {
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: #8a54ff;
+  }
+
+  .faculty-info p:nth-child(1n+0) {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
